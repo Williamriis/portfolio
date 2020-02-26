@@ -1,0 +1,145 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+
+
+.header-background {
+    position: absolute;
+    height: 508;
+    width: 375px;
+    top: 0;
+    left: 0;
+    filter: contrast(.75)
+}
+
+.profile-pic {
+    position: absolute;
+    top: 359px;
+left: 176px;
+width: 162px;
+height: 162px;
+}
+
+.header-vectors {
+    top: 105px;
+left: 210px;
+width: 128px;
+height: 39px;
+position: absolute;
+}
+
+.vector {
+    position: absolute;
+    top: 0;
+    width: 40px;
+height: 39px; 
+border: 3px solid white;
+border-radius: 50%;
+}
+
+.linked-white {
+    left: 0;
+    position: absolute;
+}
+.linked {
+ top: 12px;
+ left: 12px;
+ position: absolute;
+}
+
+.git-white {
+    left: 44px;
+    position: absolute;
+}
+.git {
+    top: 11px;
+    left: 55px;
+position: absolute;
+}
+
+.stack-white {
+    left: 88px;
+    position: absolute;
+}
+
+.stack {
+    top: 9px;
+    left: 98px;
+    position: absolute;
+}
+
+.header-textwrapper {
+    position: relative;
+    top: 176px;
+left: 41px;
+width: 219px;
+height: 149px;
+margin: 0;
+}
+
+.header-name-wrapper {
+    top: 0;
+left: 0;
+width: 206px;
+height: 15px;
+font-family: 'Roboto';
+font-size: 13px;
+position: absolute;
+
+}
+
+.portfolio {
+    left: 0px;
+    text-align: left;
+font:  13px/15px 'Roboto';
+letter-spacing: 0.52px;
+color: #FFFFFF;
+opacity: 1;
+
+}
+
+.header-name {
+    top: 0;
+left: 98px;
+
+height: 15px;
+    text-align: left;
+font: Bold 13px/15px 'Roboto';
+letter-spacing: 0.52px;
+color: #FFFFFF;
+opacity: 1;
+position: absolute;
+}
+
+.main-header-text {
+top: 20px;
+left:0;
+width: 212px;
+height: 95px;
+text-align: left;
+font: bold 40px/49px 'Montserrat';
+letter-spacing: 0;
+color: #FFFFFF;
+opacity: 1;
+margin: 0;
+position: absolute
+}
+
+.plus-more {
+    position: absolute;
+    top: 120px;
+left: 0px;
+width: 219px;
+height: 29px;
+text-align: left;
+font: Bold 24px/29px 'Montserrat';
+letter-spacing: 0;
+color: #FFFFFF;
+opacity: 1;
+white-space: nowrap;
+}
