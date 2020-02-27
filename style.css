@@ -4,166 +4,121 @@
 
 body {
     margin: 0;
-    position: absolute;
+    /* position: absolute; */
     width: 100%;
-    height: 100%;
+    
+    display: flex;
+    flex-direction: column;
+    align-items:  center;
+   
 }
 
+header {
+    width: 100%;
+    height: 508px;
+    position: relative;
+}
 
-
-.header-background {
-    position: absolute;
-    height: 508;
-    width: 375px;
-    top: 0;
-    left: 0;
-    filter: contrast(.75)
+.header-filter {
+    width: 100%;
+    height: 100%;
+    filter:contrast(75%);
+    background-image: url(/assets/slack-imgs.png);
+    position: absolute
 }
 
 .profile-pic {
     position: absolute;
-    top: 359px;
-left: 176px;
+    top: 70%;
+right: 10%;
+/* try left: 65% when you flip to desktop */
 width: 162px;
 height: 162px;
 }
 
 .header-vectors {
-    top: 105px;
-left: 210px;
-width: 128px;
-height: 39px;
 position: absolute;
+display: flex;
+top: 25px;
+right: 10%;
 }
 
-.vector {
-    position: absolute;
-    top: 0;
-    width: 40px;
-height: 39px; 
-border: 3px solid white;
-border-radius: 50%;
-}
-
-.linked-white {
-    left: 0;
-    position: absolute;
-}
 .linked {
- top: 12px;
- left: 12px;
- position: absolute;
+ border: 3px solid white;
+ border-radius: 50%;
+ padding: 8px 9px 6px 9px;
+ margin-right: 5px;
 }
 
-.git-white {
-    left: 44px;
-    position: absolute;
-}
 .git {
-    top: 11px;
-    left: 55px;
-position: absolute;
-}
-
-.stack-white {
-    left: 88px;
-    position: absolute;
+   margin-right: 5px;
+border: 3px solid white;
+ border-radius: 50%;
+ padding: 6px 8px 6px 8px;
 }
 
 .stack {
-    top: 9px;
-    left: 98px;
-    position: absolute;
+    border: 3px solid white;
+ border-radius: 50%;
+ padding: 6px 8px 6px 8px;
 }
 
 .header-textwrapper {
     position: relative;
     top: 176px;
-left: 41px;
+left: 5%;
 width: 219px;
-height: 149px;
-margin: 0;
+height: 150px;
+color: white;
+display:flex;
+flex-direction: column;
+justify-content: space-around;
+
 }
 
-.header-name-wrapper {
-    top: 0;
-left: 0;
-width: 206px;
-height: 15px;
+.header-name-wrapper {    
+width: 95%;
 font-family: 'Roboto';
 font-size: 13px;
-position: absolute;
+letter-spacing: .5px;
+display: flex;
+justify-content: space-between;
 
 }
 
-.portfolio {
-    left: 0px;
-    text-align: left;
-font:  13px/15px 'Roboto';
-letter-spacing: 0.52px;
-color: #FFFFFF;
-opacity: 1;
-
-}
-
-.header-name {
-    top: 0;
-left: 98px;
-
-height: 15px;
-    text-align: left;
-font: Bold 13px/15px 'Roboto';
-letter-spacing: 0.52px;
-color: #FFFFFF;
-opacity: 1;
-position: absolute;
+.header-name {   
+font-weight: bold;
 }
 
 .main-header-text {
-top: 20px;
-left:0;
-width: 212px;
-height: 95px;
-text-align: left;
 font: bold 40px/49px 'Montserrat';
-letter-spacing: 0;
-color: #FFFFFF;
-opacity: 1;
-margin: 0;
-position: absolute
 }
 
-.plus-more {
-    position: absolute;
-    top: 120px;
-left: 0px;
-width: 219px;
-height: 29px;
-text-align: left;
+.plus-more { 
 font: Bold 24px/29px 'Montserrat';
-letter-spacing: 0;
-color: #FFFFFF;
-opacity: 1;
 white-space: nowrap;
 }
 
 .about-me {
-    position: absolute;
-    top: 513px;
-    left: -1.0767822265625px;
-width: 377px;
-height: 342px;
+    /* position: absolute; */
+    /* top: 513px;
+    left: -1.0767822265625px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+width: 100%;
+height: 360px;
 background: #F4F4F4 0% 0% no-repeat padding-box;
 opacity: 1;
 z-index: -1;
 }
 
 .about-me-text {
-    position: absolute; 
+    /* position: absolute; 
     top: 58px;
-left: 38px;
-width: 302px;
-height: 228px;
+left: 38px; */
+width: 80%;
+height: 67%;
 text-align: left;
 font: 17px/29px 'Montserrat';
 letter-spacing: 0;
@@ -186,18 +141,19 @@ opacity: 1;
 }
 
 .tech-list {
-    position: absolute;
-    width: 377px;
+    /* position: absolute; */
+    width: 100%;
 height: 342px;
-left: -1.0767822265625px;
-top: 855px;
+/* left: -1.0767822265625px;
+top: 855px; */
 display: flex;
 flex-direction: column;
 align-items: center;
+justify-content: space-around;
 }
 
 .tech-head {
-    position: absolute;
+    /* position: absolute; */
     top: 60px;
     /* left: 135px; */
     width: 82px;
@@ -213,11 +169,11 @@ opacity: 1;
 }
 
 .tech-list-text {
-    position: absolute;
-    top: 126px;
+    /* position: absolute; */
+    /* top: 126px; */
     /* left: 36px; */
-    width: 303px;
-height: 182px;
+    width: 80%;
+height: 55%;
 text-align: center;
 font:  17px/29px 'Montserrat';
 letter-spacing: 0;
@@ -226,29 +182,31 @@ opacity: 1;
 }
 
 .featured-projects {
-    position: absolute;
-    left: -2.2335205078125px;
-    top: 1198px;
-width: 377px;
+    /* position: absolute; */
+    /* left: -2.2335205078125px;
+    top: 1198px; */
+width: 100%;
 height: 1357px;
 background: #F4F4F4 0% 0% no-repeat padding-box;
 opacity: 1;
+display: flex;
+justify-content: center;
 }
 
 .featured-head {
     display: flex;
     justify-content: center;
     align-items: center;
-    position: absolute;
+    /* position: absolute; */
     top: 57px;
     left: 53px;
-width: 269px;
+width: 70%;
 height: 33px;
 background: #FA382F 0% 0% no-repeat padding-box;
 opacity: 1;
 color: white;
 text-align: left;
-font: Bold 22px/27px Montserrat;
+font: Bold 22px/27px 'Montserrat';
 letter-spacing: 0;
 color: #FFFFFF;
 }
