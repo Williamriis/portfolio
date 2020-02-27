@@ -191,12 +191,15 @@ opacity: 1;
 height: 342px;
 left: -1.0767822265625px;
 top: 855px;
+display: flex;
+flex-direction: column;
+align-items: center;
 }
 
 .tech-head {
     position: absolute;
     top: 60px;
-    left: 135px;
+    /* left: 135px; */
     width: 82px;
 height: 33px;
 background: #FA382F 0% 0% no-repeat padding-box;
@@ -212,7 +215,7 @@ opacity: 1;
 .tech-list-text {
     position: absolute;
     top: 126px;
-    left: 36px;
+    /* left: 36px; */
     width: 303px;
 height: 182px;
 text-align: center;
@@ -222,3 +225,30 @@ color: #000000;
 opacity: 1;
 }
 
+.featured-projects {
+    position: absolute;
+    left: -2.2335205078125px;
+    top: 1198px;
+width: 377px;
+height: 1357px;
+background: #F4F4F4 0% 0% no-repeat padding-box;
+opacity: 1;
+}
+
+.featured-head {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 57px;
+    left: 53px;
+width: 269px;
+height: 33px;
+background: #FA382F 0% 0% no-repeat padding-box;
+opacity: 1;
+color: white;
+text-align: left;
+font: Bold 22px/27px Montserrat;
+letter-spacing: 0;
+color: #FFFFFF;
+}
