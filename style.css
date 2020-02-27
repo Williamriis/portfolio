@@ -4,6 +4,9 @@
 
 body {
     margin: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
 }
 
 
@@ -143,3 +146,79 @@ color: #FFFFFF;
 opacity: 1;
 white-space: nowrap;
 }
+
+.about-me {
+    position: absolute;
+    top: 513px;
+    left: -1.0767822265625px;
+width: 377px;
+height: 342px;
+background: #F4F4F4 0% 0% no-repeat padding-box;
+opacity: 1;
+z-index: -1;
+}
+
+.about-me-text {
+    position: absolute; 
+    top: 58px;
+left: 38px;
+width: 302px;
+height: 228px;
+text-align: left;
+font: 17px/29px 'Montserrat';
+letter-spacing: 0;
+color: #000000;
+opacity: 1;
+}
+
+.about-dash {
+    color: red;
+    font-size: 40px;
+    position: relative;
+    top: 3px;
+}
+.about-dot {
+    color: red;
+    font-size: 25px;
+    position: relative;
+    left: -2px;
+    top: 1px;
+}
+
+.tech-list {
+    position: absolute;
+    width: 377px;
+height: 342px;
+left: -1.0767822265625px;
+top: 855px;
+}
+
+.tech-head {
+    position: absolute;
+    top: 60px;
+    left: 135px;
+    width: 82px;
+height: 33px;
+background: #FA382F 0% 0% no-repeat padding-box;
+justify-content: center;
+display: flex;
+align-items: center;
+font: Bold 22px/27px 'Montserrat';
+letter-spacing: 0;
+color: #FFFFFF;
+opacity: 1;
+}
+
+.tech-list-text {
+    position: absolute;
+    top: 126px;
+    left: 36px;
+    width: 303px;
+height: 182px;
+text-align: center;
+font:  17px/29px 'Montserrat';
+letter-spacing: 0;
+color: #000000;
+opacity: 1;
+}
+
