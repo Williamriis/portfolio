@@ -98,9 +98,7 @@ white-space: nowrap;
 }
 
 .about-me {
-    /* position: absolute; */
-    /* top: 513px;
-    left: -1.0767822265625px; */
+   
     display: flex;
     justify-content: center;
     align-items: center;
@@ -112,11 +110,7 @@ z-index: -1;
 }
 
 .about-me-text {
-    /* position: absolute; 
-    top: 58px;
-left: 38px; */
 width: 303px;
-
 text-align: left;
 font: 17px/29px 'Montserrat';
 letter-spacing: 0;
@@ -128,7 +122,7 @@ opacity: 1;
     color: red;
     font-size: 40px;
     position: relative;
-    top: 4px;
+    top: 6px;
 }
 .about-dot {
     color: red;
@@ -150,22 +144,6 @@ align-items: center;
 justify-content: space-around;
 }
 
-.tech-head {
-    /* position: absolute; */
-    top: 60px;
-    /* left: 135px; */
-    width: 82px;
-height: 33px;
-background: #FA382F 0% 0% no-repeat padding-box;
-justify-content: center;
-display: flex;
-align-items: center;
-font: Bold 22px/27px 'Montserrat';
-letter-spacing: 0;
-color: #FFFFFF;
-opacity: 1;
-}
-
 .tech-list-text {
     /* position: absolute; */
     /* top: 126px; */
@@ -180,9 +158,6 @@ opacity: 1;
 }
 
 .featured-projects {
-    /* position: absolute; */
-    /* left: -2.2335205078125px;
-    top: 1198px; */
 width: 100%;
 background: #F4F4F4 0% 0% no-repeat padding-box;
 display: flex;
@@ -330,7 +305,7 @@ li {
 .vectors {
     display: flex;
     margin-top: 40px;
-    width: 75%;
+    width: 40%;
     justify-content: space-between;
     align-items: center;
 }
@@ -358,8 +333,6 @@ figcaption {
     color: red;
     display: flex;
     font: bold 11px 'Roboto';
-    justify-content: space-around;
-    width: 75%;
     margin-top: 15px;
     
 }
