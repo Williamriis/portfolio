@@ -349,7 +349,9 @@ li {
     justify-content: space-around;
     align-items: center;
 }
-
+.vector-links {
+    text-decoration: none;
+}
 
 .red-vector {
     border: 3px solid red;
