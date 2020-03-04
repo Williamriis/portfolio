@@ -345,16 +345,16 @@ li {
 
 .vectors {
     display: flex;
-    width: 60%;
-    justify-content: space-between;
+    width: 100%;
+    justify-content: space-around;
     align-items: center;
 }
+
 
 .red-vector {
     border: 3px solid red;
     border-radius: 50%;
     padding: 12px 14px;
-   
 }
 
 figure {
