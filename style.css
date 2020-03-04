@@ -345,8 +345,7 @@ li {
 
 .vectors {
     display: flex;
-    
-    width: 40%;
+    width: 60%;
     justify-content: space-between;
     align-items: center;
 }
@@ -357,8 +356,6 @@ li {
     padding: 12px 14px;
    
 }
-
-
 
 figure {
     display: flex;
@@ -407,7 +404,6 @@ figcaption {
     .desktop {
         display: block;
     }
-
 
     header {
         padding: 60px 140px 0 140px;
