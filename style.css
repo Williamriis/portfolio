@@ -191,6 +191,7 @@ margin: 0;
     width: 100%;
 }
 
+
 .featured-image {
   opacity: .4; 
    height: 100%;
@@ -352,6 +353,9 @@ li {
     justify-content: space-between;
     align-items: center;
 }
+.vector-links {
+    text-decoration: none;
+}
 
 .red-vector {
     border: 3px solid red;
@@ -409,7 +413,6 @@ figcaption {
     .desktop {
         display: block;
     }
-
 
     header {
         padding: 60px 140px 0 140px;
