@@ -7,142 +7,163 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Roboto:300,400,700&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>Portfolio</title>
 </head>
 
 <body>
     <header>
         <div class="header-filter"></div>
-
         <div class="header-vectors">
-
-            <div class="linked" id="linkedIn"></div>
-            <div class="git" id="git"></div>
-            <div class="stack" id="stack"></div>
-        </div>
+            <a class="icon" id="linkedIn" href="https://www.linkedin.com/in/william-jensen-94521919a/"
+                target="_blank"></a>
+            <a class="icon" id="git" href="https://github.com/Williamriis" target="_blank"></a>
+            <a class="icon" id="stack" href="https://stackoverflow.com/users/12671093/william" target="_blank"></a>
         </div>
 
         <div class="header-textwrapper">
-            <div class="header-name-wrapper"><span class="portfolio">PORTFOLIO:</span> <span class="header-name">NAME
-                    SURNAME</span></div>
-            <div class="main-header-text">frontend developer</div>
-            <div class="plus-more">+ digital designer</div>
+            <h4 class="header-name-wrapper"><span class="portfolio">PORTFOLIO:</span> <span class="header-name">WILLIAM
+                    JENSEN</span></h4>
+            <h1 class="main-header-text">frontend developer</h1>
+            <h2 class="plus-more">+ bootcamp alumni</h2>
         </div>
-        <img class="profile-pic" src="/assets/slack-imgs-1.png" alt="">
 
+        <img class="profile-pic" alt="Man with glasses" src="assets/profile.jpg" />
     </header>
 
-    <section class="about-me">
-        <div class="about-me-text"><span class="about-dash">⎯</span><span class="about-dot">●</span>
-            <span class="about-dash-desk">⎯⎯⎯⎯</span>
-            <span class="about-dot-desk">●</span>&nbsp;&nbsp;
+    <section class="sections grey">
+        <p class="about-me-text big-text"><span class="about-dash">⎯⎯⎯⎯</span>
+            <span class="about-dot">●</span>&nbsp;&nbsp;
             Hello! I’m
             a
-            strategic and creative senior
-            art
-            director/digital designer with
-            frontend developer skills and experience design at ❤️
-            I’m all about solving problems that matter and creating
-            awesome,
-            meaningful products for people to love.
-        </div>
+            creative
+            frontend developer who loves working in JavaScript
+            and React. I have a passion for making fun and
+            interactive apps and websites.
+        </p>
     </section>
 
-    <section class="tech-list">
-        <div class="featured-head">TECH</div>
-        <div class="tech-list-text">HTML, CSS, Flexbox, JavaScript,
+    <section class="sections">
+        <h3 class="sections-header">TECH</h3>
+        <p class="tech-list-text big-text">HTML, CSS, Flexbox, JavaScript,
             ES6, JSX, React, React Hooks, Redux, Node.js, Mongo DB,
             Web Accessibly, API:s, mob-programming, pair-programming,
-            Github.</div>
+            Github.</p>
     </section>
 
-    <section class="featured-projects">
-        <div class="featured-head">FEATURED PROJECTS</div>
+    <section class="sections grey">
+        <h3 class="sections-header">FEATURED PROJECTS</h3>
         <div class="flex-wrapper">
-            <div class="featured-item">
-                <div class="img-wrapper">
-                    <div class="opacity-filter">
-                        <img class="featured-image" src="assets/6156726f09eeb8354e22b0ed869bda59.png" alt="">
+
+
+            <div class="card">
+                <div class="align-wrapper">
+                    <a class="image-link" href="https://github.com/Williamriis/project-movies" target="_blank">
+                        <div class="img-wrapper">
+
+                            <img class="featured-image" src="assets/projects-movies.jpg"
+                                alt="Day/Night weather app desgins">
+
+                            <p class="image-overlay">LIGHTS, CAMERA<br> ACTION.
+                            </p>
+                        </div>
+                    </a>
+                    <div class="featured-text">
+                        <p class="app-description"><span class="weather-app">FILM DATABASE.</span> Web app built
+                            in React using open film API <a class="link"
+                                href="https://github.com/Williamriis/project-movies" target="_blank">>></a></p>
+                        <div class="tech-labels-wrapper">
+                            <p class="tech-labels">HTML5</p>
+                            <p class="tech-labels">CSS3</p>
+                            <p class="tech-labels">React</p>
+                            <p class="tech-labels">Javascript ES6</p>
+
+                        </div>
                     </div>
-                    <div class="image-overlay">SUNNY SIDE UP</div>
                 </div>
+            </div>
+            <div class="card">
+                <div class="align-wrapper">
+                    <a class="image-link" href="https://github.com/Williamriis/project-happy-thoughts" target="_blank">
+                        <div class="img-wrapper">
+
+                            <img class="featured-image" src="assets/project-happythoughts.jpeg"
+                                alt="Day/Night weather app desgins">
+
+                            <p class="image-overlay">YOU'VE GOT MAIL</p>
+                        </div>
+                    </a>
+                    <div class="featured-text">
+                        <p class="app-description"><span class="weather-app">MESSENGER APP.</span> Web app built
+                            in React using Postman <a class="link"
+                                href="https://github.com/Williamriis/project-happy-thoughts" target="_blank">>></a></p>
+                        <div class="tech-labels-wrapper">
+                            <p class="tech-labels">HTML5</p>
+                            <p class="tech-labels">CSS3</p>
+                            <p class="tech-labels">React</p>
+                            <p class="tech-labels">Javascript ES6</p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="card desktop">
+                <a href="https://github.com/Williamriis/project-react-native-app" target="_blank">
+                    <div class="img-wrapper">
+
+                        <img class="featured-image" src="assets/projects-react-native-memory-app.jpg"
+                            alt="Day/Night weather app desgins">
+
+                        <p class="image-overlay">BINGO!</p>
+                    </div>
+                </a>
                 <div class="featured-text">
-                    <span class="weather-app">WEATHER APP.</span> Web app built
-                    in Javascript using open weather API <a class="link">>></a>
+                    <p class="app-description"><span class="weather-app">MOBILE MEMORY GAME.</span> Memory game for
+                        mobile
+                        built in React Native <a class="link"
+                            href="https://github.com/Williamriis/project-react-native-app" target="_blank">>></a></p>
                     <div class="tech-labels-wrapper">
-                        <div class="tech-labels">HTML5</div>
-                        <div class="tech-labels">CSS3</div>
-                        <div class="tech-labels">SASS</div>
-                        <div class="tech-labels">Javascript ES6</div>
+                        <p class="tech-labels">HTML5</p>
+                        <p class="tech-labels">React</p>
+                        <p class="tech-labels">React Native</p>
+                        <p class="tech-labels">Javascript ES6</p>
 
                     </div>
                 </div>
             </div>
-            <div class="featured-item">
-                <div class="img-wrapper">
-                    <div class="opacity-filter">
-                        <img class="featured-image" src="assets/6156726f09eeb8354e22b0ed869bda59.png" alt="">
+            <div class="card desktop">
+                <a href="https://github.com/Williamriis/project-weather-app" target="_blank">
+                    <div class="img-wrapper">
+
+                        <img class="featured-image" src="assets/featured-large.png" alt="Day/Night weather app desgins">
+
+                        <p class="image-overlay">SUNNY SIDE UP</p>
                     </div>
-                    <div class="image-overlay">SUNNY SIDE UP</div>
-                </div>
+                </a>
                 <div class="featured-text">
-                    <span class="weather-app">WEATHER APP.</span> Web app built
-                    in Javascript using open weather API <a class="link">>></a>
+                    <p class="app-description"><span class="weather-app">WEATHER APP.</span> Web app built
+                        in Javascript using open weather API <a class="link"
+                            href="https://github.com/Williamriis/project-weather-app" target="_blank">>></a></p>
                     <div class="tech-labels-wrapper">
-                        <div class="tech-labels">HTML5</div>
-                        <div class="tech-labels">CSS3</div>
-                        <div class="tech-labels">SASS</div>
-                        <div class="tech-labels">Javascript ES6</div>
+                        <p class="tech-labels">HTML5</p>
+                        <p class="tech-labels">CSS3</p>
+                        <p class="tech-labels">SASS</p>
+                        <p class="tech-labels">Javascript ES6</p>
 
                     </div>
                 </div>
             </div>
 
-            <div class="featured-item featured-desktop">
-                <div class="img-wrapper">
-                    <div class="opacity-filter">
-                        <img class="featured-image" src="assets/6156726f09eeb8354e22b0ed869bda59.png" alt="">
-                    </div>
-                    <div class="image-overlay">SUNNY SIDE UP
-                    </div>
-                </div>
-                <div class="featured-text">
-                    <span class="weather-app">WEATHER APP.</span> Web app built
-                    in Javascript using open weather API <a class="link">>></a>
-                    <div class="tech-labels-wrapper">
-                        <div class="tech-labels">HTML5</div>
-                        <div class="tech-labels">CSS3</div>
-                        <div class="tech-labels">SASS</div>
-                        <div class="tech-labels">Javascript ES6</div>
 
-                    </div>
-                </div>
-            </div>
-            <div class="featured-item featured-desktop">
-                <div class="img-wrapper">
-                    <div class="opacity-filter">
-                        <img class="featured-image" src="assets/6156726f09eeb8354e22b0ed869bda59.png" alt="">
-                    </div>
-                    <div class="image-overlay">SUNNY SIDE UP
-                    </div>
-                </div>
-                <div class="featured-text">
-                    <span class="weather-app">WEATHER APP.</span> Web app built
-                    in Javascript using open weather API <a class="link">>></a>
-                    <div class="tech-labels-wrapper">
-                        <div class="tech-labels">HTML5</div>
-                        <div class="tech-labels">CSS3</div>
-                        <div class="tech-labels">SASS</div>
-                        <div class="tech-labels">Javascript ES6</div>
 
-                    </div>
-                </div>
-            </div>
         </div>
         <div class="other-projects-header">OTHER PROJECTS</div>
         <div class="featured-text featured-text-desktop">
-            <span class="weather-app">WEATHER APP.</span> Web app built
-            in Javascript using open weather API <a class="link">>></a>
+            <a href="https://github.com/Williamriis/project-music-releases" target="_blank"><span
+                    class="weather-app">MUSIC SITE.</span> Web app built
+                in Javascript using Spotify API <span class="weather-app">>></span></a>
             <div class="tech-labels-wrapper">
                 <div class="tech-labels">HTML5</div>
                 <div class="tech-labels">CSS3</div>
@@ -152,8 +173,9 @@
             </div>
         </div>
         <div class="featured-text featured-text-desktop">
-            <span class="weather-app">WEATHER APP.</span> Web app built
-            in Javascript using open weather API <a class="link">>></a>
+            <a href="https://github.com/Williamriis/project-survey" target="_blank"><span class="weather-app">SURVEY
+                    SITE.</span> Survey website built
+                in React <span class="weather-app">>></span></a>
             <div class="tech-labels-wrapper">
                 <div class="tech-labels">HTML5</div>
                 <div class="tech-labels">CSS3</div>
@@ -163,8 +185,9 @@
             </div>
         </div>
         <div class="featured-text featured-text-desktop">
-            <span class="weather-app">WEATHER APP.</span> Web app built
-            in Javascript using open weather API <a class="link">>></a>
+            <a href="https://github.com/Williamriis/project-cluedo" target="_blank"><span class="weather-app">CLUEDO
+                    APP.</span> Web app built
+                in Javascript <span class="weather-app">>></span></a>
             <div class="tech-labels-wrapper">
                 <div class="tech-labels">HTML5</div>
                 <div class="tech-labels">CSS3</div>
@@ -175,37 +198,43 @@
         </div>
 
     </section>
-    <section class="thoughts">
-        <div class="featured-head">MY THOUGHTS</div>
+    <section class="sections">
+        <h3 class="sections-header">MY THOUGHTS</h3>
         <div class="flex-wrapper">
-            <div class="thoughts-item">
-                <img class="thoughts-image" src="/assets/thoughts.png" alt="">
-                <div class="thoughts-text">
-                    <p class="thoughts-date">MAR 2020</p>
-                    <p class="thoughts-heading">How to stop being scared:
-                        Learning to love code
-                    </p>Writing code is less about "just working". Instead, it's much
-                    more about creativity. It's similar to creative writing in that the author
-                    architecting a story must use an array of tools and components in such
-                    a way as to satisfy a particular objective. <a class="link">>></a>
+            <div class="card">
+                <div class="thoughts-image-wrapper">
+                    <a class="image-link"
+                        href="https://www.linkedin.com/pulse/box-sizing-border-box-vs-content-box-william-jensen/?published=t"
+                        target="_blank">
+                        <img class="thoughts-image" src="/assets/thoughts.png"
+                            alt="computer illustration against blue background">
+                    </a>
+
+                    <div class="featured-text">
+                        <p class="thoughts-date">FEB 2020</p>
+                        <p class="thoughts-heading">CSS Basics: Box-sizing
+                        </p>HTML elements not working how you think they should? Does adding a border
+                        ruin your alignments? It's time to learn about box-sizing! <a class="link"
+                            href="https://www.linkedin.com/pulse/box-sizing-border-box-vs-content-box-william-jensen/?published=t"
+                            target="_blank">>></a>
+                    </div>
                 </div>
             </div>
-            <div class="thoughts-item thoughts-desktop-item">
-                <img class="thoughts-image second-image" src="/assets/thoughts.png" alt="">
-                <div class="thoughts-text">
+            <div class="card desktop">
+                <a href="https://medium.com/@william.riis93/apis-and-fetch-ecf570406340" target="_blank"><img
+                        class="clock-image" src="/assets/clock.png" alt="alarm clock"></a>
+                <div class="featured-text">
                     <p class="thoughts-date">MAR 2020</p>
-                    <p class="thoughts-heading">How to stop being scared:
-                        Learning to love code
-                    </p>Writing code is less about "just working". Instead, it's much
-                    more about creativity. It's similar to creative writing in that the author
-                    architecting a story must use an array of tools and components in such
-                    a way as to satisfy a particular objective. <a class="link">>></a>
+                    <p class="thoughts-heading">APIs and Fetch
+                    </p>Powerful tools for buitling websites in JavaScript ES6 <a class="link"
+                        href="https://medium.com/@william.riis93/apis-and-fetch-ecf570406340" target="_blank">>></a>
                 </div>
             </div>
 
         </div>
+
+        <h3 class="other-projects-header">MORE THOUGHTS</h3>
         <div class="more-thoughts">
-            <div class="other-projects-header">MORE THOUGHTS</div>
             <div class="other-thoughts-text"><span class="thoughts-date">JAN 2020</span>
                 5 Apps that will make coding easier. <a class="link">>></a> </div>
             <div class="other-thoughts-text"><span class="thoughts-date">JAN 2020</span>
@@ -216,30 +245,28 @@
                 5 Apps that will make coding easier. <a class="link">>></a> </div>
         </div>
     </section>
-    <section class="skills">
-        <div class="featured-head">SKILLS</div>
+
+    <!--SKILLS-->
+
+    <section class="sections grey">
+        <h3 class="sections-header">SKILLS</h3>
         <div class="skills-container">
-            <div class="skills-column"><span class="weather-app">CODE</span>
+            <div class="skills-column">
+                <h6 class="weather-app">CODE</h6>
                 <ul>
                     <li>HTML5</li>
                     <li>CSS3</li>
                     <li>Javascript ES6</li>
                     <li>React</li>
-                    <li>SASS</li>
+                    <li>React Native</li>
                     <li>GitHub</li>
-                    <li>Node.js</li>
-                </ul>
-                <span class="weather-app">UPCOMING</span>
-                <ul>
-                    <li>Redux</li>
                 </ul>
             </div>
+
             <div class="skills-column">
-                <span class="weather-app">TOOLBOX</span>
+                <h6 class="weather-app">TOOLBOX</h6>
                 <ul>
-                    <li>Atom</li>
                     <li>Postman</li>
-                    <li>Adobe Photoshop</li>
                     <li>React</li>
                     <li>Microsoft Excel</li>
                     <li>Keynote</li>
@@ -247,38 +274,48 @@
                 </ul>
             </div>
             <div class="skills-column">
-                <span class="weather-app">TOOLBOX</span>
+                <h6 class="weather-app">TOOLBOX</h6>
                 <ul>
-                    <li>Design lead</li>
-                    <li>Branding</li>
+                    <li>Research</li>
+                    <li>Creative Thinking</li>
                     <li>Strategy</li>
-                    <li>Process Design</li>
-                    <li>Concept</li>
-                    <li>Agile Methodology</li>
+                </ul>
+            </div>
+            <div class="skills-column">
+                <h6 class="weather-app">UPCOMING</h6>
+                <ul>
+                    <li>Redux</li>
+                    <li>Node.js</li>
                 </ul>
             </div>
 
         </div>
     </section>
-    <section class="more-info">
-        <div class="featured-head">FOR MORE</div>
+    <section class="sections">
+        <h3 class="sections-header">FOR MORE</h3>
         <div class="vectors">
-            <figure>
-                <div class="red-vector red-linked" id="redLinked"></div>
-                <figcaption>LINKEDIN</figcaption>
-            </figure>
-            <figure>
-                <div class="red-vector" id="redGit"></div>
-                <figcaption>GITHUB</figcaption>
-            </figure>
-            <figure>
-                <div class="red-vector" id="redStack"></div>
-                <figcaption>STACKOVERFLOW</figcaption>
-            </figure>
+            <a href="https://www.linkedin.com/in/william-jensen-94521919a/" target="_blank">
+                <figure>
+                    <div class="red-vector" id="redLinked"></div>
+                    <figcaption>LINKEDIN</figcaption>
+                </figure>
+            </a>
+            <a href="https://github.com/Williamriis" target="_blank">
+                <figure>
+                    <div class="red-vector" id="redGit"></div>
+                    <figcaption>GITHUB</figcaption>
+                </figure>
+            </a>
+            <a href="https://stackoverflow.com/users/12671093/william" target="_blank">
+                <figure>
+                    <div class="red-vector" id="redStack"></div>
+                    <figcaption>STACKOVERFLOW</figcaption>
+                </figure>
+            </a>
         </div>
     </section>
-    <section class="contact">
-        <div class="contact-heading">CONTACT</div>
+    <section class="sections blue">
+        <h3 class="contact-heading">CONTACT</h3>
         <div class="contact-text">
             <span class="contact-name">William Jensen</span><br>+46 73 39 00 059<br>
             william.riis93@gmail.com
